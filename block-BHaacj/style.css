@@ -1,0 +1,366 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	background: #e6e6e6;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bolder;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+header{display: flex;justify-content: space-between;align-content: flex-end;align-items: center;margin: 10px 214px;padding: 0px 229px 15px 220px;}
+.container{
+	
+max-width: 1200px;
+	
+margin: 0 auto;
+}
+.journey{
+	font-size: 45px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	align-content: flex-end;
+	width: 250px;
+	font-size: 40px;
+	font-weight: 700;
+}
+.navbar .a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    margin-left: 13px;
+}
+.a:hover{
+    color: aqua;
+}
+main{
+	background-color: #e6e6e6;
+}
+.begin{
+	background: radial-gradient(#0000005e,#0000001a), url(assets/banner.jpg);
+	color: #fff;
+	text-align: center;
+	font-size: 23px;
+	margin: 0px 70px;
+	background-size: cover;
+	padding-top: 103px;
+	padding-bottom: 1px;
+	opacity: 0.9;
+}
+h1{
+	
+color: #fff;
+	
+font-size: 35px;
+	
+text-align: center;
+	
+line-height: 14px;
+	
+padding-top: 8px;
+}
+.dd{
+	height: 30px;
+	width: 30px;
+	background: #69c6ba;
+	border-radius: 50%;
+	padding: 0px;
+	margin: 14px 49%;
+	padding-top: 4px;
+	padding-right: 2px;
+	padding-left: 2px;
+}
+.f1{background-color: #fff;color: black;text-align: initial;font-size: 15px;font-weight: 700;margin: 50px 205px;padding: 20px;height: 140px;}
+.cyd{display: flex;flex-wrap: wrap;width: 408px;}
+.cd{
+	width: 200px;
+	position: relative;
+}
+.inf{margin-bottom: 20px;width: 292px;}
+.dest{
+
+}
+.rooms{display: flex;position: relative;top: -142px;left: 345px;}
+input{
+	border: none;
+	margin-top: 20px;
+}
+textarea{
+	border: none;
+	margin-top: 20px;
+}
+label{
+	display: flex;
+	flex-flow: column;
+}
+.per{
+	width: 70px;
+}
+.ca{
+	position: relative;
+	left: 343px;
+	top: -94px;
+	background: aquamarine;
+	color: #fff;
+	border: none;
+	padding: 12px 106px;
+} 
+.two{
+
+margin: 0px 70px;
+
+text-align: center;
+
+color: #606265;
+
+background: #ededed;
+
+padding: 40px 160px;
+}
+h2{
+
+color: black;
+
+font-size: 30px;
+
+margin-bottom: 20px;
+}
+.ce{
+	
+color: #fff;
+	
+background: #8afdd6;
+	
+border: none;
+	
+font-size: 16px;
+	
+padding: 10px 15px;
+	
+margin-top: 20px;
+}
+.continents{
+
+}
+.continents{
+
+margin: 0px 70px;
+
+background: #fff;
+}
+.europe{
+
+display: flex;
+
+flex-wrap: wrap;
+
+align-items: center;
+}
+.arr{
+
+display: inline;
+
+z-index: 1;
+
+position: relative;
+
+right: 135px;
+}
+.butto{color: #e0dfdd;padding: 10px;font-size: 25px;background: #867f77bf;}
+.abo{color: #fff;background: #8afdd6;width: 478px;padding: 30px 30px;margin-right: -71px;position: relative;right: 135px;}
+h3{
+
+font-size: 35px;
+
+margin-bottom: 20px;
+}
+.cr{
+	
+color: #8afdd6;
+	
+background: #fff;
+	
+padding: 15px 20px;
+	
+border: none;
+	
+margin-top: 20px;
+	
+font-size: 16px;
+	
+font-weight: 700;
+}
+.america{
+
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	}
+.abo2{background: #c66995;left: 98px;}
+.cr2{
+	color: #c66995;
+}
+.arr2{
+	left: 169px;
+}
+.asia{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.maps{margin: -3px 70px 0px 70px;display: flex;}
+.map{
+
+background: #8afdd6;
+
+width: 150px;
+
+text-align: center;
+
+padding: 20px;
+
+color: #fff;
+
+font-size: 20px;
+
+font-weight: 500;
+}
+.pla{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.map:hover{
+	background-color:#ac5b82;
+}
+.checkpoints{margin: -25px 70px;background: #fff;padding: 20px 0px;}
+.checkpoint{display: flex;align-items: center;background: #8afdd6;justify-content: space-between;margin: 25px 108px;}
+h4{color: black;font-size: 23px;font-weight: 700;width: 397px;}
+.subhe{
+	color: #c66995;
+	font-weight: 900;
+}
+.price{
+	background: #8afdd6;
+	height: 180px;
+	width: 259px;
+	display: flex;
+	text-align: center;
+	align-items: center;
+	font-size: 34px;
+	color: #fff;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: center;
+	font-weight: 900;
+}
+.core{
+	
+font-size: 13px;
+	
+margin-top: 20px;
+	
+font-weight: 900;
+}
+.artt{
+	background: #fff;
+	height: 180px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	padding: 0px 30px;
+	color: silver;
+}
+.smp{
+	color: #fff;
+	background: #8afdd6;
+	border: none;
+	padding: 12px;
+	font-size: 16px;
+	font-weight: 600;
+	position: relative;
+	left: 443px;
+}
+.cont{
+	margin: 25px 70px 0px 70px;
+	height: 450px;
+	background: #fff;
+	background: radial-gradient(black, black);
+}
+.contform{background: #fff;display: flex;flex-direction: row;width: 410px;flex-wrap: wrap;position: relative;bottom: 400px;left: 625px;}
+.namee{
+
+background: whitesmoke;
+
+padding: 14px;
+
+margin-left: 10px;
+}
+.subject{
+
+width: 362px;
+
+background: whitesmoke;
+
+padding: 14px;
+
+margin-left: 10px;
+}
+.message{width: 362px;background: whitesmoke;padding: 14px;margin-left: 10px;height: 100px;}
+.smn{width: 390px;background: #8afdd6;padding: 12px;margin-left: 10px;color: #fff;font-size: 16px;border: none;margin-top: 20px;margin-bottom: 20px;}
+footer{
+	
+background: #8afdd6;
+	
+text-align: center;
+	
+color: aliceblue;
+	
+padding: 30px;
+	
+margin: 0px 70px;
+	
+font-weight: 600;
+}
